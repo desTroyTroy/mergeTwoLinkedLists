@@ -55,6 +55,7 @@ class Solution:
         # Return the original starting position of list 1       
         return dummy1.next
 
+''' Commented out once test module was uploaded
 def print_list(node):
     values = []
     while node is not None:
@@ -72,3 +73,4 @@ solution = Solution()
 merged = solution.mergeTwoLists(list1, list2)
 
 print_list(merged)
+'''
